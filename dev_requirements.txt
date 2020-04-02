@@ -1,4 +1,12 @@
--r requirements.txt
+Flask==0.10.1
+feedparser<5.2
+google-api-python-client==1.2
+jsonschema==2.3
+mutagen==1.22
+oauth<1.1
+simplejson<3.4
+tabulate==0.7.2
+yapsy<1.11
 flake8==2.1.0
 httpretty
 mock
