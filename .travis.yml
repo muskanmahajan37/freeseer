@@ -14,10 +14,10 @@ before_install:
   - python -c 'import PyQt4'
   - python -c 'import PyQt4.QtCore'
   - python -c 'import PyQt4.QtGui'
+  - sudo apt-get install ubuntu-restricted-extras
   - sudo apt-get -qq install python-gst0.10 python-gst0.10-dev gstreamer0.10-plugins-good
   - python -c 'import pygst'
   - python -c 'import gst'
-  - sudo apt-get install ubuntu-restricted-extras
   - sudo apt-get -qq install gstreamer0.10-plugins-bad gstreamer0.10-plugins-ugly
   - sudo apt-get -qq install gstreamer0.10-pulseaudio
   - sudo apt-get -qq install gstreamer0.10-alsa
